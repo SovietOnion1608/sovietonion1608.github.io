@@ -1,0 +1,20 @@
+title: Incoherent System
+description: A simple blog hosted on GitHub Pages
+baseurl: "" # Leave empty if using a custom domain
+url: "https://<your-username>.github.io" # Replace with your GitHub Pages URL
+
+# Pagination and Markdown Settings
+paginate: 5
+markdown: kramdown
+theme: minima # You can customize this theme further
+
+# Plugins (to enable search functionality)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Exclude unnecessary files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
