@@ -1,7 +1,7 @@
 title: Incoherent System
 description: A simple blog hosted on GitHub Pages
 baseurl: "" # Leave empty if using a custom domain
-url: "https://<your-username>.github.io" # Replace with your GitHub Pages URL
+url: "https://sovietonion1608.github.io" # Replace with your GitHub Pages URL
 
 # Pagination and Markdown Settings
 paginate: 5
