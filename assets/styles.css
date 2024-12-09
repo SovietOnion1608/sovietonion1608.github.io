@@ -21,6 +21,8 @@ body {
   max-width: 1200px; /* Max width of content box */
   margin: 0 auto; /* Horizontally center the content */
   padding: 0 15px; /* Add padding on left/right */
+  border-style: double;
+  border-radius: 25px;
 }
 
 /* Header styling */
