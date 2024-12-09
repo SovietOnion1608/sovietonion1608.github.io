@@ -9,21 +9,27 @@
 </head>
 <body>
   <header>
-    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-    <nav>
-      <ul>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      <nav>
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/about">About</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    {{ content }}
+    <div class="container">
+      {{ content }}
+    </div>
   </main>
 
   <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
