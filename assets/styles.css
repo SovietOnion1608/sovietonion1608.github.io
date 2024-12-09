@@ -60,7 +60,7 @@ nav ul li a {
 
 /* Hover effect for navigation links */
 nav ul li a:hover {
-  color: #fff;
+  color: #f39c12;
 }
 
 /* Main content area styling */
@@ -84,10 +84,10 @@ article.post:hover {
 }
 
 /* Post titles inside articles */
-article h2 {
+article h1 {
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
-  color: #fff; /* Golden color for the title */
+  color: #f39c12; /* Golden color for the title */
 }
 
 /* Excerpts and post content */
