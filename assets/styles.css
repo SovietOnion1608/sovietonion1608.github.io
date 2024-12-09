@@ -68,6 +68,10 @@ main {
   padding: 2rem 0;
 }
 
+a {
+  color: #f39c12;
+}
+
 /* Article/Post container */
 article.post {
   border: 1px solid #333;
