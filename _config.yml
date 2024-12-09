@@ -1,10 +1,10 @@
-title: Incoherent System
-description: A simple blog hosted on GitHub Pages
+title: h/acc
+description: hyperstitional accelerationism
 baseurl: "" # Leave empty if using a custom domain
 url: "https://sovietonion1608.github.io" # Replace with your GitHub Pages URL
 
 # Pagination and Markdown Settings
-paginate: 5
+paginate: 10
 markdown: kramdown
 theme: minima # You can customize this theme further
 
